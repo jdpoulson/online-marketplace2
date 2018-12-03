@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Online Marketplace</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="panel panel-heading">Online Marketplace</h1>
+      <p class="panel panel-body">What can I get for you?</p>
+      <form id="marketplace">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input id="address" class="form-control" type="text">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="grapes" checked>
+            grapes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="oranges">
+            oranges
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="raspberries">
+            raspberries
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="blueberries">
+            blueberries
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="carrots">
+            carrots
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="celery">
+            celery
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="onions">
+            onions
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="product" value="mushrooms">
+            mushrooms
+          </label>
+        </div>
+        <button type="submit" name="btn">Submit!</button>
+      </form>
+      <div id="confirmation">
+        <p class="panel panel-body">Thank you for purchasing <span class="radio"></span> <span class="name"></span>. Your shipping order will arive at <span class="address"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>

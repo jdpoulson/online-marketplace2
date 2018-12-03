@@ -1,0 +1,21 @@
+#confirmation {
+  display: none;
+}
+
+body {
+  background-color: gold;
+}
+
+h1 {
+  text-align: center;
+  color: magenta;
+}
+
+p {
+  text-align: center;
+  color: plum;
+}
+
+.radio {
+  color: red;
+}
